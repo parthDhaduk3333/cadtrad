@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | | CADTRAD </title>
+
+    <link rel="stylesheet" href="../commen-css/bootstrap.min.css">
+    <link rel="stylesheet" href="../commen-css/fonts.css">
+    <link rel="stylesheet" href="../commen-css/animate.css">
+    <link rel="stylesheet" href="../commen-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../commen-css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../commen-css/jquery.exzoom.css">
+    <link rel="stylesheet" href="../commen-css/style.css">
+    <link rel="stylesheet" href="../commen-css/media.css">
+    <style>
+        .card-header {
+            background-color: var(--dark);
+        }
+
+        .card {
+            margin-bottom: 10px;
+        }
+
+        .accordion .card {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- =================== Header ===================== -->
+     <section class="header">
+        <div class="nav">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="nav-top">
+                        <a href="contact-us.html" class="f-14 text-white mr-3">Contact us</a>
+                        <a href="#" class="f-14 text-white">Check Out</a>
+                    </div>
+                    <div class="f-14 text-white welcome">Welcome to CADTRAD</div>
+                    <div class="d-flex currency">
+                        <div class="dropdown">
+                            <div class="f-14 text-white dropdown-toggle mr-3" data-toggle="dropdown"
+                                style="cursor: pointer;">Indian rupees
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item f-14">Indian rupees</li>
+                                    <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                    <li class="dropdown-item f-14">Us dollors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="f-14 text-white dropdown-toggle" data-toggle="dropdown"
+                                style="cursor: pointer;">My Account
+                                <ul class="dropdown-menu" id="account">
+                                    <li class="dropdown-item f-14">log in</li>
+                                    <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                    <li class="dropdown-item f-14">Register</li>
+                                    <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                    <li class="dropdown-item f-14">My wishlist</li>
+                                    <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                    <li class="dropdown-item f-14">My oreders</li>
+                                    <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                    <li class="dropdown-item f-14">Log out</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-center">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center py-2">
+                    <div class="header-contact">
+                        <a href="#" class="f-14 text-dark mr-2">Phone: +91 7600313019</a>
+                        <a href="#" class="f-14 text-dark">Email: cadtrad2@gmail.com</a>
+                    </div>
+                    <a href="../index.html" class="brand-logo"><img src="../images/logo.png" alt="logo" class="img-fluid"></a>
+                    <div class="d-flex">
+                        <div class="text-dark f-14 mr-3 i-s"><span
+                                class="badge badge-warning ml-xl-2 ml-md-1 f-14 f-h">0</span></div>
+                        <div class="text-dark f-14 i-s"><span
+                                class="badge badge-warning ml-xl-2 ml-1 f-14 f-h">1</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between align-items-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="text-white f-20 i-s"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav show d-flex justify-content-center">
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2"><a href="../index.html"
+                                class="nav-link text-white f-14">Home</a></li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2 dropdown">
+                            <a href="#" class="nav-link text-white f-14" data-toggle="dropdown">Ring<span
+                                    class="i-s ml-1"></span></a>
+                            <div class="dropdown-menu">
+                                <a href="category.html" class="dropdown-item f-14">Casual</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Gents Rings</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Solitaire Rings</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Cocktail ring</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2 dropdown">
+                            <a href="#" class="nav-link text-white f-14" data-toggle="dropdown">Bracelets<span
+                                    class="i-s ml-1"></span></a>
+                            <div class="dropdown-menu">
+                                <a href="category.html" class="dropdown-item f-14">Bracelet</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Bangle</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2 dropdown">
+                            <a href="#" class="nav-link text-white f-14" data-toggle="dropdown">Pandant<span
+                                    class="i-s ml-1"></span></a>
+                            <div class="dropdown-menu">
+                                <a href="category.html" class="dropdown-item f-14">All Pandant</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">GOD Pandant</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Ginney Pandant</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2"><a href="#"
+                                class="nav-link text-white f-14">Tops</a></li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2 dropdown">
+                            <a href="#" class="nav-link text-white f-14" data-toggle="dropdown">Light weight<span
+                                    class="i-s ml-1"></span></a>
+                            <div class="dropdown-menu">
+                                <a href="category.html" class="dropdown-item f-14">Ladies Rings</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Pandant</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Tops</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">3 Pcs set</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2"><a href="#"
+                                class="nav-link text-white f-14">Mangalsutra</a></li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2 dropdown">
+                            <a href="#" class="nav-link text-white f-14" data-toggle="dropdown">Alphabet<span
+                                    class="i-s ml-1"></span></a>
+                            <div class="dropdown-menu">
+                                <a href="category.html" class="dropdown-item f-14">Ring</a>
+                                <div class="dropdown-divider mx-auto" style="width: 90%;"></div>
+                                <a href="category.html" class="dropdown-item f-14">Pendant Set</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-xl-4 px-lg-3 px-md-2"><a href="#" class="nav-link text-white f-14">3D</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-contact-show">
+                    <a href="#" class="f-14 text-white text-center">Email: cadtrad2@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------ -->
+    <!-- ========================== main banner ======================== -->
+    <section class="cetgory-banner">
+        <div class="container d-flex">
+            <div class="m-auto">
+                <h3 class="text-center f-t f-55 text-white">Faqs</h3>
+                <h6 class="text-center text-white">Home <a href="#" class="text-white ml-3">faqs</a></h6>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------------------------------- -->
+    <!-- ============================= faqs ============================= -->
+    <section class="m-100">
+        <div class="container">
+            <h2 class="f-30 mb-4 f-h f-b">Below are frequently asked questions, you may find the answer for yourself
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left text-white" type="button" data-toggle="collapse"
+                                data-target="#collapseOne">
+                                1. Can We Download Free Design ?
+                            </div>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left collapsed text-white" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo">
+                                2. Free Design Download Need To Create Account ?
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left collapsed text-white" type="button"
+                                data-toggle="collapse" data-target="#collapseThree">
+                                3. My All Details Secure ?
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes, Your all details secure, you can check our privacy policy page.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left collapsed text-white" type="button"
+                                data-toggle="collapse" data-target="#collapseFour">
+                                4. Which Payment Method Provide ?
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We provide Paypal, UPI, Wallet, Net Banking, All type Card
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left collapsed text-white" type="button"
+                                data-toggle="collapse" data-target="#collapseFive">
+                                5. You Provide Cash On Delivery ?
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-parent="#accordionExample">
+                        <div class="card-body">
+                            We selling design so not provide COD
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <div class="btn btn-block text-left collapsed text-white" type="button"
+                                data-toggle="collapse" data-target="#collapseSix">
+                                6. If We Have Special Requirnment, Can You Create Design Base On That ?
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes, we will do that<br>Please contact by email , phone
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------- -->
+    <!-- =================== footer ===================== -->
+    <section class="footer dark-bg m-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="f-h text-white f-30 f-b">Sign Up For Our Email</h2>
+                    <h6 class=" text-white f-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <form class="input-group">
+                        <input type="email" class="form-control email-input dark-bg text-white"
+                            placeholder="Enter Your E-mail Address" required="">
+                        <div class="input-group-append">
+                            <button class="input-group-text  text-white" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="../images/logo.png" alt="">
+                    <p class="f-14 text-white mt-3">We are a team of designers to make a design as per<br>
+                        your requirements!</p>
+                    <ul class="d-flex m-0 p-0">
+                        <li><a href="#" class="i-b f-20 yellow px-2"></a></li>
+                        <li><a href="#" class="i-b f-20 yellow px-2"></a></li>
+                        <li><a href="#" class="i-b f-20 yellow px-2"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="p-0">
+                        <li class="mb-2">
+                            <div class="f-16 yellow f-h f-b">Help</div>
+                        </li>
+                        <li class="py-1"><a href="about_us.html" class="f-14 text-white">About Us</a></li>
+                        <li class="py-1"><a href="faq.html" class="f-14 text-white">FAQ</a></li>
+                        <li class="py-1"><a href="privacy-policy.html" class="f-14 text-white">Privacy Policy</a></li>
+                        <li class="py-1"><a href="terms&condition.html" class="f-14 text-white">Terms And Condition</a></li>
+                        <li class="py-1"><a href="contact-us.html" class="f-14 text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="p-0">
+                        <li class="mb-2">
+                            <div class="f-16 yellow f-h f-b">Get In Touch</div>
+                        </li>
+                        <li class="py-1"><a href="#" class="f-14 text-white"><span class="i-s mr-2"> </span> DTC
+                                building 306-307-308,Dalagiya maholo, Mahidharpura, Surat, Gujarat, India</a></li>
+                        <li class="py-1"><a href="#" class="f-14 text-white"><span class="i-s mr-2"> </span>+91
+                                7600313019</a></li>
+                        <li class="py-1"><a href="#" class="f-14 text-white"><span class="i-s mr-2">
+                                </span>cadtrad2@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5 class="f-14 text-white text-center">Copyright © 2021 Cadtrad All rights reserved.</h5>
+            <h5 class="f-20 text-white text-center i-b">    </h5>
+        </div>
+    </section>
+    <!-- ------------------------------------------------ -->
+    <!-- =========================== Scripts =========================== -->
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- --------------------------------------------------------------- -->
+</body>
+
+</html>
